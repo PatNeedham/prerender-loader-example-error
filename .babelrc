@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/env", {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "@babel/plugin-proposal-export-default-from",
+    "transform-react-remove-prop-types"
+  ]
+}
